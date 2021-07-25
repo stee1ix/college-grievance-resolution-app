@@ -1,0 +1,2 @@
+rootProject.name = "College Grievance System"
+include ':app'

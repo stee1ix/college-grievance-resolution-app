@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710113087790",
+    "project_id": "college-grievance-app",
+    "storage_bucket": "college-grievance-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710113087790:android:55c899b434c662dea96abf",
+        "android_client_info": {
+          "package_name": "com.stee1ix.collegegrievancesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710113087790-je7r97jfivfs993gnjvhkfks9nilkj16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPePENuUdZNd35eJZ0BpliyFRbZI5CRk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710113087790-je7r97jfivfs993gnjvhkfks9nilkj16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

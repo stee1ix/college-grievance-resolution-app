@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <EditText
+        android:id="@+id/regName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#fff"
+        android:drawablePadding="8dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:fontFamily="@font/nunito_semibold"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textColorHint="#a0a4a5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#fff"
+        android:drawablePadding="8dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:fontFamily="@font/nunito_semibold"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColorHint="#a0a4a5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regName"
+        app:layout_constraintVertical_bias="0.04000002" />
+
+    <EditText
+        android:id="@+id/regPassword"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#fff"
+        android:drawablePadding="8dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:fontFamily="@font/nunito_semibold"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColorHint="#a0a4a5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regEmail"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regPassword"
+        app:layout_constraintVertical_bias="0.19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

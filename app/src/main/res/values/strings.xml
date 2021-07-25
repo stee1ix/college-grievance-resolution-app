@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">College Grievance System</string>
+    <string name="log_issue">Log New Issue</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="radio_student">Student</string>
+    <string name="radio_faculty">Faculty</string>
+    <string name="spinner_cat">Category</string>
+    <string name="edit_sub">Subject</string>
+    <string name="edit_main">Write down your issue</string>
+    <string name="btn_login">Login</string>
+    <string-array name="catergory">
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+        <item>item 4</item>
+        <item>item 5</item>
+    </string-array>
+    <string name="btn_submit">Submit</string>
+</resources>
