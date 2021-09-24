@@ -1,4 +1,4 @@
-# college-grievance-resolution-app
+# College Grievance Resolution App
 College grievance system for logging and resolving queries and requests
 
 
